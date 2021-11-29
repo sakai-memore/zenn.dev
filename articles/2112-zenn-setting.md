@@ -1,3 +1,10 @@
+---
+title: "2112-zenn-setting"
+emoji: "🌟"
+type: "tech" # tech: 技術記事 / idea: アイデア
+topics: ["setting"]
+published: false
+---
 # 2112-zenn-setting
 
 ## overview
@@ -56,11 +63,16 @@ Mode                 LastWriteTime         Length Name
 ```
 
 ### zenn.dev
+- GitHubリポジトリでZennのコンテンツを管理する
+  + https://zenn.dev/zenn/articles/connect-to-github
 
 -https://zenn.dev/dashboard/deploys 
 ![](https://i.gyazo.com/a046f547d4c28c9b9c282e101b0c04e5.png)
 
 ## push articles
+### get personal access token
+- https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
 ```
 
 ```
