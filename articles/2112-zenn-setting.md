@@ -73,6 +73,13 @@ Mode                 LastWriteTime         Length Name
 ### get personal access token
 - https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
-```
+## zenn-cli
+- installation
+  - https://zenn.dev/zenn/articles/zenn-cli-guide
+- operation
+  - https://zenn.dev/zenn/articles/zenn-cli-guide
 
 ```
+$ npx zenn new:article --slug 2112-vuejs-setting --title 2112-vuejs-setting --type tech --emoji ✨ 
+```
+
