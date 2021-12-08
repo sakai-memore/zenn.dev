@@ -1,17 +1,45 @@
 ---
 title: "2112-zenn-setting"
-emoji: "🌟"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["setting"]
+emoji: "✨"
+type: "tech"
+topics: ["zenn"]
 published: false
 ---
 # 2112-zenn-setting
 
 ## overview
-- keep notes on zenn.dev 
+- keep notes and logs of tasks on zenn.dev 
+
+## What is zenn.dev
+- zenn.devは、IT Engineerのための、情報共有サイト。
+  - https://zenn.dev/
+- Communityの中で、情報発信していくことで、関連する情報と繋がれるというメリットを享受できる。
+- ITエンジニアは、IT情報を、全世界のサイトをGoogleで検索しながら、知見を集めて、Engineeringを行っている。あるITタスクを、ある文脈で達成する際に、いくつかの知識を、総合的に、利用して、タスクを実施している。この際に、そのタスクで得た知見を、あとで使える形式で、保持しておくものである。
+- で、自分がITタスクを達成するために、蓄積した知見は、他のITエンジニアと共有したいと考えている。ITエンジニアは、そういう生き物。
+- zenn.devは、そのようなITエンジニアのニーズを支援するサイトといえる。
+- zenn.devは、Github上のRepositoryに、Markdown形式で書いた文章を、zenn.devサイトと連携して、簡易に公開することが可能になっている。GitHub, MarkdownといったITエンジニアになじみのある環境で、知見を蓄積して、それを公開することができるので、エンジニアにはメリットが大きい。
 
 ## setting
-### git repository
+
+### Create git repository
+- GitHubにて、zenn.devと連携させるRepositoryを作成する。
+- 当該のRepositoryを、Local PCと連携させる。
+
+```
+ni README.md
+echo "# zenn.dev repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sakai-memore/zenn.dev.git
+git push -u origin main
+```
+#### reference
+- https://newbedev.com/changing-powershell-s-default-output-encoding-to-utf-8
+
+
+
 - git config
 ```
 PS G:\repos\zenn.dev> git config --global user.name "sakai-memore"
@@ -80,6 +108,6 @@ Mode                 LastWriteTime         Length Name
   - https://zenn.dev/zenn/articles/zenn-cli-guide
 
 ```
-$ npx zenn new:article --slug 2112-vuejs-setting --title 2112-vuejs-setting --type tech --emoji ✨ 
+$ npx zenn new:article --slug 2112-zenn-setting --title 2112-zenn-setting --type tech --emoji ✨ 
 ```
-
+[end of file]

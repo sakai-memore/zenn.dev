@@ -1,7 +1,7 @@
 ---
 title: "2112-node-setting"
 emoji: "🎃"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "tech"
 topics: ["nodejs"]
 published: false
 ---
@@ -43,6 +43,15 @@ found 0 vulnerabilities
 PS C:\Users\sakai> yarn --version
 1.22.17
 ```
+
+```
+PS C:\Users\sakai> tsc --version
+Version 4.5.2
+PS C:\Users\sakai> npm list --global
+C:\Users\sakai\AppData\Roaming\npm
++-- yarn@1.22.17
+```
+
 - yarn command list
   - https://classic.yarnpkg.com/en/docs/cli/
 

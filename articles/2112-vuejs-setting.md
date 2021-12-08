@@ -1,7 +1,7 @@
 ---
 title: "2112-vuejs-setting"
 emoji: "📚"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "tech"
 topics: ["vue"]
 published: false
 ---
