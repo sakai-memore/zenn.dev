@@ -4,11 +4,17 @@ emoji: "✨"
 type: "tech"
 topics: ["zenn"]
 published: false
+reviewed: done
 ---
 # 2112-zenn-setting
 
 ## overview
+- エンジニアリングの中で、如何に、調査して確認したreferenceや、そのreferenceをもとに実施した作業内容を、スムーズに残して置けるかが、Engineerにとっての重要なスキルといえる。
+- zenn.devは、それをサポートする環境である。zenn.devのEcosystemを利用することで、普段のエンジニアリング作業の中で、後々にEngineering ArtifactsとなるContentsを、自然とスムーズに蓄積できる。
 - keep notes and logs of tasks on zenn.dev 
+
+## tags
+#github #markdown #sns
 
 ## What is zenn.dev
 - zenn.devは、IT Engineerのための、情報共有サイト。
@@ -38,9 +44,8 @@ git push -u origin main
 #### reference
 - https://newbedev.com/changing-powershell-s-default-output-encoding-to-utf-8
 
-
-
 - git config
+
 ```
 PS G:\repos\zenn.dev> git config --global user.name "sakai-memore"
 PS G:\repos\zenn.dev> git config --global user.email "mitsuru.sakai@gmail.com"
@@ -110,4 +115,10 @@ Mode                 LastWriteTime         Length Name
 ```
 $ npx zenn new:article --slug 2112-zenn-setting --title 2112-zenn-setting --type tech --emoji ✨ 
 ```
+## input emoji
+- `win+.`
+
+## How to publish
+
+
 [end of file]

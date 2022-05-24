@@ -19,5 +19,6 @@
   "homepage": "https://github.com/sakai-memore/zenn.dev#readme",
   "dependencies": {
     "zenn-cli": "^0.1.99"
-  }
+  },
+  "devDependencies": {}
 }

@@ -4,6 +4,7 @@ emoji: "🎹"
 type: "tech"
 topics: ["vscode"]
 published: false
+reviewed: done
 ---
 # 2112-vscode-setting
 ## overview
@@ -52,4 +53,7 @@ ul>li.item*5
   - Type-checking your js code can help you spot mistakes you might have not caught otherwise. You can run the Typescript type checker against your existing js code by simply adding a `// @ts-check` comment to the top of your file.
 
 ## typescript
-- 
+### reference
+- https://code.visualstudio.com/docs/languages/typescript
+
+[end of file]

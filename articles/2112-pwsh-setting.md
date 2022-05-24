@@ -4,6 +4,7 @@ emoji: "🦔"
 type: "tech"
 topics: ["pwsh", "powershell"]
 published: false
+reviewed: done
 ---
 # 2112-pwsh-setting
 
@@ -58,5 +59,69 @@ G:\Users\sakai\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 
 - reference
   - https://dattesar.com/powershell-utf8/
+
+## scoop
+
+### reference
+- https://scoop.sh/
+- https://github.com/ScoopInstaller/Scoop/wiki
+- https://qiita.com/OpenJNY/items/9783d6f2c9745da7d0d9
+### installation
+```
+PS G:\workspace\ts-basic> Invoke-Expression (New-Object System.Net.WebClient).DownloadString("https://get.scoop.sh")
+Initializing...
+Downloading scoop...
+Extracting...
+Creating shim...
+Downloading main bucket...
+Extracting...
+Adding ~\scoop\shims to your path.
+'lastupdate' has been set to '2021-12-08T17:21:05.7195395+09:00'
+Scoop was installed successfully!
+Type 'scoop help' for instructions.
+
+PS G:\workspace\ts-basic> scoop help
+Usage: scoop <command> [<args>]
+
+Some useful commands are:
+
+alias       Manage scoop aliases
+bucket      Manage Scoop buckets
+cache       Show or clear the download cache
+checkup     Check for potential problems
+cleanup     Cleanup apps by removing old versions
+config      Get or set configuration values
+create      Create a custom app manifest
+depends     List dependencies for an app
+export      Exports (an importable) list of installed apps
+help        Show help for a command
+hold        Hold an app to disable updates
+home        Opens the app homepage
+info        Display information about an app
+install     Install apps
+list        List installed apps
+prefix      Returns the path to the specified app
+reset       Reset an app to resolve conflicts
+search      Search available apps
+status      Show status and check for new app versions
+unhold      Unhold an app to enable updates
+uninstall   Uninstall an app
+update      Update apps, or Scoop itself
+virustotal  Look for app's hash on virustotal.com
+which       Locate a shim/executable (similar to 'which' on Linux)
+
+Type 'scoop help <command>' to get help for a specific command.
+PS G:\workspace\ts-basic> scoop list
+There aren't any apps installed.
+PS G:\workspace\ts-basic> scoop status
+WARN  Scoop is out of date. Run 'scoop update' to get the latest changes.
+PS G:\workspace\ts-basic> scoop update
+Updating Scoop...
+Updating 'main' bucket...
+Checking repo... ok
+The main bucket was added successfully.
+Scoop was updated successfully!
+PS G:\workspace\ts-basic>
+```
 
 [end of file]

@@ -4,6 +4,7 @@ emoji: "🎃"
 type: "tech"
 topics: ["nodejs"]
 published: false
+reviewed: done
 ---
 # 2112-node-setting
 
@@ -16,18 +17,31 @@ published: false
 - nvm
   - https://github.com/coreybutler/nvm-windows/releases
 
-## environment
+## installation
+- installerの指示にあわせて、Installする。
+  
+# environment
 ### nvm, node, npm
 ```
-PS G:\repos\zenn.dev\articles> nvm version
+PS G:\workspace\ts-get-started> nvm version
 1.1.8
-PS G:\repos\zenn.dev\articles> nvm list
+PS G:\workspace\ts-get-started> nvm list
 
   * 16.13.0 (Currently using 64-bit executable)
-PS G:\repos\zenn.dev\articles> node -v
+PS G:\workspace\ts-get-started> node -v
 v16.13.0
-PS G:\repos\zenn.dev\articles> npm -v
+PS G:\workspace\ts-get-started> npm -v
 8.1.0
+PS G:\workspace\ts-get-started> npx -v
+8.1.0
+PS G:\workspace\ts-get-started>
+```
+- path 
+```
+PS G:\workspace\ts-get-started> $env:path -split ";" | oss | sls "nvm" , "node"
+
+C:\Users\sakai\AppData\Roaming\nvm
+C:\Program Files\nodejs
 ```
 
 ### yarn
@@ -45,9 +59,7 @@ PS C:\Users\sakai> yarn --version
 ```
 
 ```
-PS C:\Users\sakai> tsc --version
-Version 4.5.2
-PS C:\Users\sakai> npm list --global
+\PS C:\Users\sakai> npm list --global
 C:\Users\sakai\AppData\Roaming\npm
 +-- yarn@1.22.17
 ```

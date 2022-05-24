@@ -4,6 +4,7 @@ emoji: "🐷"
 type: "tech"
 topics: []
 published: false
+reviewed: done
 ---
 # 2112-typescript-setting
 ## overview
